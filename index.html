@@ -11,8 +11,7 @@
     <link rel="stylesheet" id="elementor-post-38220-css" href="css/post-38220.css" type="text/css" media="all" />
     <link rel="stylesheet" id="bootstrap-css" href="css/bootstrap.css" type="text/css" media="all" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.15/dist/sweetalert2.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.15/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         .float {
             position: fixed;
@@ -108,7 +107,7 @@
     class="page-template page-template-elementor_canvas page page-id-38220 wp-custom-logo theme-vizeon woocommerce-no-js wpc_show_open_close_button elementor-default elementor-template-canvas elementor-kit-6 elementor-page elementor-page-38220">
     <a href="https://api.whatsapp.com/send?phone=8866842520&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202."
         class="float" target="_blank">
-        <i class="fa fa-whatsapp my-float"></i>
+        <i class="fab fa-whatsapp mt-3"></i>
     </a>
     <div data-elementor-type="wp-page" data-elementor-id="38220" class="elementor elementor-38220">
         <section
@@ -170,17 +169,21 @@
                                     style="display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
                                     <img id="video-thumbnail" src="img/fwg-banner.jpeg" alt="YouTube Video Thumbnail"
                                         style="width: 100%; height: 100%; object-fit: cover; border-radius: 30px;" />
-                                    <button class="video-button"
+                                        <button class="video-button"
                                         style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-                                        ▶
-                                    </button>
+                                        <i class="fas fa-play"></i>
+                                </button>
+                                
                                 </a>
                                 <div id="video-iframe"
                                     style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-                                    <iframe width="100%" height="100%" src="" title="YouTube video player"
+                                    <iframe width="100%" height="100%" 
+                                    src="" 
+                                    title="YouTube video player"
                                         frameborder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                        allowfullscreen style="border-radius: 30px;"></iframe>
+                                        allowfullscreen 
+                                        style="border-radius: 30px;"></iframe>
                                 </div>
                             </div>
 
@@ -188,16 +191,17 @@
                             <div class="d-block d-md-none mt-3">
                                 <a href="javascript:void(0);" onclick="playVideoMobile()"
                                     style="display: block; position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-                                    <img id="video-thumbnail-mobile" src="img/fwg-banner.jpeg"
-                                        alt="YouTube Video Thumbnail"
+                                    <img id="video-thumbnail-mobile" src="img/fwg-banner.jpeg" alt="YouTube Video Thumbnail"
                                         style="width: 100%; height: 100%; object-fit: cover; border-radius: 30px;" />
-                                    <button class="video-button-mobile"
+                                        <button class="video-button"
                                         style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-                                        ▶
-                                    </button>
+                                        <i class="fas fa-play"></i>
+                                </button>
                                 </a>
                                 <div id="video-iframe-mobile">
-                                    <iframe width="100%" height="190px" src="" title="YouTube video player"
+                                    <iframe width="100%" height="190px"
+                                        src=""
+                                        title="YouTube video player" 
                                         style="border-radius: 30px"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                         allowFullScreen></iframe>
@@ -1292,42 +1296,49 @@
                                                 <img src="img/book-appointment.webp" width="100%" />
                                             </div>
                                             <div class="col-lg-6 mt-3">
-                                                <form id="registerForm1">
+                                                <form>
                                                     <div class="mb-3">
                                                         <label class="form-label" style="color: white;">Name</label>
-                                                        <input type="text" id="name1" class="form-control"
+                                                        <input type="text" class="form-control"
                                                             style="color: white; background-color: #242424; border: 1px solid #d7c49a;">
                                                     </div>
                                                     <div class="mb-3">
                                                         <label class="form-label" style="color: white;">Email</label>
-                                                        <input type="email" id="email1" class="form-control"
+                                                        <input type="email" class="form-control"
                                                             style="color: white; background-color: #242424; border: 1px solid #d7c49a;">
                                                     </div>
                                                     <div class="mb-3">
                                                         <label class="form-label" style="color: white;">Number</label>
-                                                        <input type="number" id="number1" class="form-control"
+                                                        <input type="number" class="form-control"
                                                             style="color: white; background-color: #242424; border: 1px solid #d7c49a;">
                                                     </div>
                                                     <div class="mb-3">
                                                         <label class="form-label" style="color: white;">Slot</label>
-                                                        <select id="slot1" class="form-control"
+                                                        <select class="form-control"
                                                             style="color: white; background-color: #242424; border: 1px solid #d7c49a;">
-                                                            <option value="" hidden>Select a Slot</option>
-                                                            <option value="02/07/2024 - 11AM to 12PM">02/07/2024 - 11AM
-                                                                to 12PM</option>
-                                                            <option value="09/07/2024 - 11AM to 12PM">09/07/2024 - 11AM
-                                                                to 12PM</option>
-                                                            <option value="16/07/2024 - 11AM to 12PM">16/07/2024 - 11AM
-                                                                to 12PM</option>
-                                                            <option value="23/07/2024 - 11AM to 12PM">23/07/2024 - 11AM
-                                                                to 12PM</option>
-                                                            <option value="30/07/2024 - 11AM to 12PM">30/07/2024 - 11AM
-                                                                to 12PM</option>
+                                                            <option value="" hidden>
+                                                                Select a Slot
+                                                            </option>
+                                                            <option value="02/07/2024 - 11AM to 12PM">
+                                                                02/07/2024 - 11AM to 12PM
+                                                            </option>
+                                                            <option value="09/07/2024 - 11AM to 12PM">
+                                                                09/07/2024 - 11AM to 12PM
+                                                            </option>
+                                                            <option value="16/07/2024 - 11AM to 12PM">
+                                                                16/07/2024 - 11AM to 12PM
+                                                            </option>
+                                                            <option value="23/07/2024 - 11AM to 12PM">
+                                                                23/07/2024 - 11AM to 12PM
+                                                            </option>
+                                                            <option value="30/07/2024 - 11AM to 12PM">
+                                                                30/07/2024 - 11AM to 12PM
+                                                            </option>
                                                         </select>
                                                     </div>
                                                     <div class="mb-3">
                                                         <label class="form-label" style="color: white;">Message</label>
-                                                        <input type="text" id="message1" class="form-control"
+                                                        <input type="text" class="form-control"
                                                             style="color: white; background-color: #242424; border: 1px solid #d7c49a;">
                                                     </div>
                                                     <button type="submit" class="btn btn-primary"
@@ -1495,37 +1506,49 @@
                             aria-label="Close"></button>
                     </div>
                     <div class="modal-body pb-4">
-                        <form id="registerForm">
+                        <form>
                             <div class="mb-3">
                                 <label class="form-label" style="color: white;">Name</label>
-                                <input type="text" id="name" class="form-control"
+                                <input type="text" class="form-control"
                                     style="color: white; background-color: #242424; border: 1px solid #d7c49a;">
                             </div>
                             <div class="mb-3">
                                 <label class="form-label" style="color: white;">Email</label>
-                                <input type="email" id="email" class="form-control"
+                                <input type="email" class="form-control"
                                     style="color: white; background-color: #242424; border: 1px solid #d7c49a;">
                             </div>
                             <div class="mb-3">
                                 <label class="form-label" style="color: white;">Number</label>
-                                <input type="number" id="number" class="form-control"
+                                <input type="number" class="form-control"
                                     style="color: white; background-color: #242424; border: 1px solid #d7c49a;">
                             </div>
                             <div class="mb-3">
                                 <label class="form-label" style="color: white;">Slot</label>
-                                <select id="slot" class="form-control"
+                                <select class="form-control"
                                     style="color: white; background-color: #242424; border: 1px solid #d7c49a;">
-                                    <option value="" hidden>Select a Slot</option>
-                                    <option value="02/07/2024 - 11AM to 12PM">02/07/2024 - 11AM to 12PM</option>
-                                    <option value="09/07/2024 - 11AM to 12PM">09/07/2024 - 11AM to 12PM</option>
-                                    <option value="16/07/2024 - 11AM to 12PM">16/07/2024 - 11AM to 12PM</option>
-                                    <option value="23/07/2024 - 11AM to 12PM">23/07/2024 - 11AM to 12PM</option>
-                                    <option value="30/07/2024 - 11AM to 12PM">30/07/2024 - 11AM to 12PM</option>
+                                    <option value="" hidden>
+                                        Select a Slot
+                                    </option>
+                                    <option value="02/07/2024 - 11AM to 12PM">
+                                        02/07/2024 - 11AM to 12PM
+                                    </option>
+                                    <option value="09/07/2024 - 11AM to 12PM">
+                                        09/07/2024 - 11AM to 12PM
+                                    </option>
+                                    <option value="16/07/2024 - 11AM to 12PM">
+                                        16/07/2024 - 11AM to 12PM
+                                    </option>
+                                    <option value="23/07/2024 - 11AM to 12PM">
+                                        23/07/2024 - 11AM to 12PM
+                                    </option>
+                                    <option value="30/07/2024 - 11AM to 12PM">
+                                        30/07/2024 - 11AM to 12PM
+                                    </option>
                                 </select>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label" style="color: white;">Message</label>
-                                <input type="text" id="message" class="form-control"
+                                <input type="text" class="form-control"
                                     style="color: white; background-color: #242424; border: 1px solid #d7c49a;">
                             </div>
                             <button type="submit" class="btn btn-primary"
@@ -1564,102 +1587,6 @@
             iframeContainer.style.display = 'block';
         }
     </script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $("#registerForm").submit(function (event) {
-                event.preventDefault();
-                let slot = $("#slot").val()
-                let message = $("#message").val()
-                let modifiedMessage = `${message}\n\nSlot: ${slot}`
-                let source = window.location.origin + window.location.pathname
-
-                // Get form data
-                var formData = {
-                    name: $("#name").val(),
-                    email: $("#email").val(),
-                    mobile: $("#number").val(),
-                    message: modifiedMessage,
-                    subject: 'FWG Webinar Inquiry',
-                    source: source
-                };
-
-                // Send the data using AJAX
-                $.ajax({
-                    type: "POST",
-                    url: "https://api.fggroup.in/public/v1/contact-inquiry",
-                    data: JSON.stringify(formData),
-                    contentType: "application/json",
-                    success: function (response) {
-                        Swal.fire({
-                            icon: 'success',
-                            title: 'Success!',
-                            text: 'Your form has been submitted successfully.',
-                            confirmButtonColor: '#d7c49a'
-                        });
-                        $("#registerForm")[0].reset();
-                        $("#exampleModal").modal("hide");
-                        window.location.reload();
-                    },
-                    error: function (error) {
-                        Swal.fire({
-                            icon: 'error',
-                            title: 'Oops...',
-                            text: 'Something went wrong! Please try again later.',
-                            confirmButtonColor: '#d7c49a'
-                        });
-                    }
-                });
-            });
-        });
-
-        $(document).ready(function () {
-            $("#registerForm1").submit(function (event) {
-                event.preventDefault();
-                let slot = $("#slot1").val()
-                let message = $("#message1").val()
-                let modifiedMessage = `${message}\n\nSlot: ${slot}`
-                let source = window.location.origin + window.location.pathname
-
-                // Get form data
-                var formData = {
-                    name: $("#name1").val(),
-                    email: $("#email1").val(),
-                    mobile: $("#number1").val(),
-                    message: modifiedMessage,
-                    subject: 'FWG Webinar Inquiry',
-                    source: source
-                };
-
-                // Send the data using AJAX
-                $.ajax({
-                    type: "POST",
-                    url: "https://api.fggroup.in/public/v1/contact-inquiry",
-                    data: JSON.stringify(formData),
-                    contentType: "application/json",
-                    success: function (response) {
-                        Swal.fire({
-                            icon: 'success',
-                            title: 'Success!',
-                            text: 'Your form has been submitted successfully.',
-                            confirmButtonColor: '#d7c49a'
-                        });
-                        $("#registerForm1")[0].reset();
-                        $("#exampleModal").modal("hide");
-                    },
-                    error: function (error) {
-                        Swal.fire({
-                            icon: 'error',
-                            title: 'Oops...',
-                            text: 'Something went wrong! Please try again later.',
-                            confirmButtonColor: '#d7c49a'
-                        });
-                    }
-                });
-            });
-        });
-    </script>
-
 </body>
 
 </html>
